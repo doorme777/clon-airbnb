@@ -1,0 +1,26 @@
+:root {
+  --padding-button: 15px 30px;
+
+  --small: 1.4rem;
+  --medium: 1.85rem;
+  --big: 2.6rem;
+
+  --negro: #000000;
+  --gris: #222222;
+  --gris-claro: #717171;
+  --gris-debil: #b0b0b0;
+  --blanco-palido: #dddddd;
+  --blanco-dentadura: #ebebeb;
+  ---blanco-transparente: #f7f7f7;
+  --blanco: #ffffff;
+  --naranja: #c13515;
+  --rojo: #b32505;
+  --smooth: #fff8f6;
+  --moztasa: #e07912;
+  --verde-fuerte: #008a05;
+  --azul-cielo: #428bff;
+  --color-secundario: #ff385c;
+  --color-primario: #e00b41;
+  --primario-fuerte: #92174d;
+  --violeta: #460479;
+}
