@@ -1,0 +1,62 @@
+@import url(variables.css);
+
+.main__vacation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+
+  margin-block-start: 28px;
+  padding-inline: 4rem;
+}
+
+.vacation__category {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.category__place {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-inline-end: 4rem;
+  padding-block-end: 8px;
+  color: var(--gris-debil);
+}
+
+.place__icon {
+  justify-self: center;
+  width: 32px;
+  filter: opacity(0.4);
+}
+
+.place__text {
+  font-size: var(--small);
+  font-weight: 600;
+}
+
+.active {
+  filter: opacity(1);
+}
+
+.border {
+  border-block-end: 3px solid var(--negro);
+  border-radius: 2px;
+}
+
+.vacation__filter {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 120px;
+  padding: 6px 15px;
+  font-size: var(--small);
+  font-weight: 700;
+  border: 1.8px solid var(--gris-claro);
+  border-radius: 16px;
+  background-color: var(--blanco);
+  cursor: pointer;
+}

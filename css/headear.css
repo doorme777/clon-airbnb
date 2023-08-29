@@ -6,11 +6,10 @@
   justify-content: center;
   align-items: center;
   padding-inline: 4rem;
-  padding-block-end: 2rem;
+  padding-block: 24px;
   width: 100vw;
   width: 100dvw;
   border-block-end: 1px solid var(--gris-debil);
-  margin-block-start: 20px;
 }
 
 .header__figure {
@@ -94,7 +93,12 @@
 .text-bold {
   font-weight: 700;
   font-size: var(--small);
+  color: var(--negro);
   white-space: nowrap;
+}
+
+.world {
+  width: 28px;
 }
 
 .menu {
@@ -104,8 +108,9 @@
   padding: 10px 15px;
   border-radius: 28px;
   border: 1px solid var(--gris-claro);
+  box-shadow: 0 4px 9px -6px;
 }
 
-.world {
-  width: 28px;
+.menu:hover {
+  box-shadow: 0 4px 9px -2px;
 }

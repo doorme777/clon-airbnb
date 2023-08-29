@@ -1,4 +1,5 @@
 @import url(headear.css);
+@import url(category.css);
 @import url(card.css);
 @import url(footer.css);
 
@@ -29,5 +30,5 @@ body {
   font-size: 1.4rem;
   line-height: 1.43;
   color: #222;
-  background-color: #fff;
+  background-color: var(--blanco-transparente);
 }
