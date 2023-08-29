@@ -1,0 +1,64 @@
+@import url(variables.css);
+
+.main__place {
+  display: grid;
+  grid-template-columns: 100%;
+  padding-inline: 4rem;
+}
+
+.card {
+  width: clamp(280px, 100%, 434px);
+
+  height: clamp();
+
+  background-color: var(--blanco);
+}
+
+.heart {
+  position: relative;
+  left: 36rem;
+  bottom: -4.8rem;
+  width: 3rem;
+}
+
+.card__cointener-image {
+  width: 100%;
+
+  object-fit: cover;
+}
+
+.conteiner__image {
+  border-radius: 12px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card__place {
+  display: flex;
+  justify-content: space-between;
+}
+
+.place__qualification {
+  display: flex;
+  gap: 8px;
+}
+
+.text-medium-bold {
+  font-weight: 600;
+  font-size: var(--medium);
+  color: var(--negro);
+}
+
+.card__text {
+  font-size: var(--small);
+  color: var(--gris-claro);
+}
+
+.card__text b {
+  color: var(--negro);
+}
+
+.text--bottom {
+  margin-block-start: 4rem;
+  color: black;
+}
