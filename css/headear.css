@@ -1,18 +1,111 @@
 @import url(variables.css);
 
 .header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1.8fr 1fr;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 4rem;
+  padding-block-end: 2rem;
+  width: 100vw;
+  width: 100dvw;
+  border-block-end: 1px solid var(--gris-debil);
+  margin-block-start: 20px;
 }
 
 .header__figure {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  align-items: center;
+}
+
+.figure--img {
+  width: 40px;
 }
 
 .figure--caption {
   margin-inline-start: 12px;
   font-size: var(--big);
+  font-weight: bold;
+  color: var(--color-primario);
+}
+
+.header__search {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+
+  padding: var(--padding-button);
+  border: 1px solid var(--gris-debil);
+  border-radius: 27px;
+
+  width: clamp(280px, 100%, 760px);
+
+  box-shadow: 1px 2px 14px -6px;
+}
+
+.header__search:hover {
+  box-shadow: 1px 2px 14px -3px;
+}
+
+.search__item {
+  font-size: var(--small);
+  font-weight: bold;
+  white-space: nowrap;
+  color: var(--negro);
+  list-style: none;
+}
+
+.search__item:nth-child(2) {
+  width: 12vw;
+  text-align: center;
+  border-inline: 1px solid var(--gris-claro);
+}
+
+.search__item:last-child {
+  font-weight: normal;
+  color: var(--gris-claro);
+}
+
+.item--icon {
+  position: relative;
+  right: -12px;
+  vertical-align: middle;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: var(--color-primario);
+}
+
+.header__home {
+  justify-self: flex-end;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 20px;
+  width: 94%;
+  min-width: 180px;
+}
+
+.text-bold {
+  font-weight: 700;
+  font-size: var(--small);
+  white-space: nowrap;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: nowrap;
+  column-gap: 12px;
+  padding: 10px 15px;
+  border-radius: 28px;
+  border: 1px solid var(--gris-claro);
+}
+
+.world {
+  width: 28px;
 }

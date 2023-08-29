@@ -1,8 +1,8 @@
 :root {
-  --padding-button: 15px 30px;
+  --padding-button: 15px 20px;
 
-  --small: 1.4rem;
-  --medium: 1.85rem;
+  --small: 1.56rem;
+  --medium: 1.75rem;
   --big: 2.6rem;
 
   --negro: #000000;
@@ -19,8 +19,8 @@
   --moztasa: #e07912;
   --verde-fuerte: #008a05;
   --azul-cielo: #428bff;
-  --color-secundario: #ff385c;
-  --color-primario: #e00b41;
+  --color-primario: #ff385c;
+  --color-secundario: #e00b41;
   --primario-fuerte: #92174d;
   --violeta: #460479;
 }

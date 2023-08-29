@@ -1,4 +1,6 @@
 @import url(headear.css);
+@import url(card.css);
+@import url(footer.css);
 
 * {
   margin: 0;
@@ -8,7 +10,12 @@
 
 @font-face {
   font-family: "circular book";
-  src: url(font/Circular/CircularStd-Book.otf);
+  src: url(font/Circular/CircularStd-Book.otf) format(OpenType);
+}
+
+@font-face {
+  font-family: "circular italic";
+  src: url(font/Circular/CircularStd-BookItalic.otf) format(OpenType);
 }
 
 html {
@@ -16,7 +23,9 @@ html {
 }
 
 body {
-  font-family: "circular book";
+  height: 100vh;
+  height: 100dvh;
+  font-family: "circular book", "circular italic", sans-serif;
   font-size: 1.4rem;
   line-height: 1.43;
   color: #222;
